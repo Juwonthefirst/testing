@@ -1,10 +1,10 @@
 import { Room, RoomEvent } from "./modules/livekit-client.esm.js"
 
-const videoGrid = document.querySelector('div')
+const videoGrid = document.querySelector('.video-grid')
 
 const handleTrackSubsribed = function (track, publication, participant){
     //const videoTag = document.createElement('video')
-    track.setVolume(1)
+    console.log('Track event triggered')
     videoGrid.appendChild(track.attach())
 }
 
