@@ -4,8 +4,8 @@ const videoGrid = document.querySelector('.video-grid')
 
 const handleTrackSubsribed = function (track, publication, participant){
     const videoTag = track.attach()
-    videoTag.style.height = '300px'
-    videoTag.style.width = '200px'
+    videoTag.style.height = '500px'
+    videoTag.style.width = '300px'
     videoTag.style.backgroundColor = 'black'
     videoTag.autoplay = true
     videoTag.playsinline = true
