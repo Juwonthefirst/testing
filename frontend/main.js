@@ -3,7 +3,7 @@ import { Room, RoomEvent } from "./modules/livekit-client.esm.js"
 const videoGrid = document.querySelector('.video-grid')
 
 const handleTrackSubsribed = function (track, publication, participant){
-    const videoTag = track.attach(videoTag)
+    const videoTag = track.attach()
     videoTag.style.height = '300px'
     videoTag.style.width = '200px'
     videoTag.style.backgroundColor = 'black'
